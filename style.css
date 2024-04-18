@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    background-color: black;
+}
+
+body
+{
+    text-align: center;
+}
+
+.head
+{
+    color: red;
+}
+
+.images
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7%;
+    object-fit: cover;
+}
+
+.img
+{
+    margin-right: 4%;
+    object-fit: cover;
+}
+
+.img :hover
+{
+    margin-right: 4%;
+    border: 5px solid red;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.score 
+{
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.score h3
+{
+    margin-top: 4%;
+    margin-right: 10%;
+}
+
